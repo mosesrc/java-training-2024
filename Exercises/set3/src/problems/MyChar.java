@@ -6,10 +6,19 @@ public class MyChar {
 
         // Use a switch statement to check for each vowel, both lowercase and uppercase
         switch (ch) {
-
-            // TODO: Complete the switch statement
+            case 'a':
+            case 'e':
+            case 'i':
+            case 'o':
+            case 'u':
+            case 'A':
+            case 'E':
+            case 'I':
+            case 'O':
+            case 'U':
+                return true;
+            default:
+                return false;
         }
-
-        return false;
     }
 }
